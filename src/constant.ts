@@ -1,4 +1,5 @@
-import { Label, Note } from "./types"; // Import the Label type from the appropriate module
+import { Label } from "./types";
+//import { Label, Note } from "./types"; // Import the Label type from the appropriate module
 export const dummyNotesList = [
     {
         id: 1,

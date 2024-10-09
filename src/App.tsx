@@ -1,5 +1,7 @@
-import { Label, Note } from "./types"; // Import the Label type from the appropriate module
+
+import { Label, Note  } from "./types"; // Import the Label type from the appropriate module
 import { dummyNotesList } from "./constant"; // Import the dummyNotesList from the appropriate module
+import { ClickCounter } from "./hooksExercise";
 
 import React from 'react';
 import logo from './logo.svg';
@@ -28,9 +30,12 @@ function App() {
            <h2> {note.title} </h2>
            <p> {note.content} </p>
            <p> {note.label} </p>
+           
          </div>
        ))}
      </div>
+
+     <ClickCounter/>
 
        <button>
          x
@@ -44,3 +49,4 @@ function App() {
 }
 
 export default App;
+

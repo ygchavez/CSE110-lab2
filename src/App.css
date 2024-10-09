@@ -36,23 +36,23 @@
     transform: rotate(360deg);
   }
 } */
-.note-individual {
+/* .note-individual {
   border: 1px solid black;
-  display: "flex";
+  display: flex;
   flex-direction: column;
  }
  
  .app-container {
-  display: "flex";
+  display: flex;
   flex-direction: column;
  }
 
  .note-form {
-  display: "flex";
+  display: flex;
   border: 1px solid black;
   flex-direction: column;
- }
-/* 
+ } */
+
  body {
   margin: 20px;
   background-color: lightgrey;
@@ -146,4 +146,4 @@
   background-color: rgb(220, 89, 89);
   color: white;
  }
-  */
+ 
