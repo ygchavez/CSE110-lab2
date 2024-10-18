@@ -1,5 +1,4 @@
 import { Label } from "./types";
-//import { Label, Note } from "./types"; // Import the Label type from the appropriate module
 export const dummyNotesList = [
     {
         id: 1,
@@ -44,5 +43,13 @@ export const dummyNotesList = [
         isFavorite: false 
     },
  ]
+
+
+export const dummyGroceryList = [
+    { name: "Apples", isPurchased: false },
+    { name: "Bananas", isPurchased: false },
+ ]
+ 
+ 
  
  
